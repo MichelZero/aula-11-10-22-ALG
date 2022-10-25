@@ -2,6 +2,11 @@
 # todos os divisores desse número, com exceção dele próprio. Ex. a soma dos divisores do
 # número 66 é 1 + 2 + 3 + 6 + 11 + 22 + 33 = 78
 
+# leia um número inteiro -> numero
+# calcule a soma -> soma
+# divisores -> MOD %
+
+
 # entrada de dados
 numero = int(input("Digite um número inteiro: ")) # Recebe o número a ser calculado os divisores
 
