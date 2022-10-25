@@ -14,6 +14,7 @@ numero = int(input("Digite um número inteiro: ")) # Recebe o número a ser calc
 soma = 0 # Inicializa a soma com 0 (zero)
 for i in range(1, numero): # Laço que percorre os números de 1 a n (n+1)
     if numero % i == 0: # Se o número for divisível por i
+        print(i,' ', end='')
         soma += i  # Soma i a soma de divisores
 
 # saída de dados
